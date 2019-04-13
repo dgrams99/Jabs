@@ -7,9 +7,10 @@
     <title>J.A.B.S</title>
     <!-- UIkit CSS -->
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" type="image/png" href="./assets/pictures/favicon-32x32.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
         <div class="nav-color">
@@ -18,12 +19,19 @@
             
                     <nav class="uk-navbar-container">
                         <div class="uk-container uk-container-expand">
-                            <div uk-navbar>
-            
+                            <div  uk-navbar>
+                          
                                 <ul class="uk-navbar-nav">
+                                        
                                    <li> <img class="pic-size" href="#target" uk-scroll src="assets/pictures/jabslogo.png"></li>
+                                 
                                 </ul>
-            
+                                <div class="uk-navbar-right">
+                                <div class="uk-navbar-item phone">
+                                        <i class="material-icons call-icon">call</i>
+                                        <div>000-000-0000</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </nav>
@@ -37,7 +45,7 @@
                    <div>
                         <h1>Accounting At Its Best</h1>
                     </div>
-                    <div class="uk-grid-match uk-child-width-1-3@m white-text" uk-grid>
+                    <div class="uk-grid-match uk-child-width-1-3@m header-section-text" uk-grid>
                        
                         <div>
                             <p>Whether your business is new or old, it needs efficient accounting services 
@@ -118,10 +126,7 @@
                                     </div>
                                 </div>
                                 </div>
-                                <!-- <div class="uk-flex uk-flex-center">
-                                    <a class="show-down icon-arrows" uk-tooltip="More Info" uk-icon="icon: chevron-down; ratio: 2"></a>
-                                    <a class="show-up display-no" uk-tooltip="Less Info" uk-icon="icon: chevron-up; ratio: 2"></a>
-                                </div> -->
+                          
                            
                             </div>
                             
@@ -131,11 +136,9 @@
             <header>
                 <h1 class="quick-title">QuickBooks™ Accounting</h1>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-                    <polygon fill="white" points="0,100 100,0 100,100"/>
+                    <polygon fill="white" points="0,300 200,0 200,200"/>
                   </svg>
-                  <circle fill="white" cx="0" cy="100" r="100" />
-                  <circle fill="white" cx="200" cy="100" r="100" />
-                </svg>
+               
               </header>
 
               <div uk-scrollspy="target: > section; cls:uk-animation-fade; repeat: true; delay: 400">
