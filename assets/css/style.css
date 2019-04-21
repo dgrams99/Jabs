@@ -2,7 +2,7 @@ body{
     font-family: 'Nunito', sans-serif;
     background-color: #ffffff;
     /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%236cade1' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E"); */
- 
+ font-size: 18px;
 }
 p{
     font-size: 17px
@@ -46,7 +46,7 @@ p{
 .text{
     margin-top: -4rem;
 }
-.uk-card:hover{
+.Card:hover{
     color: white;
     background-color: #6de0b0;
 }
@@ -145,4 +145,17 @@ font-size: 15px;
 .call-icon{
     font-size: 32px; 
     transform: rotate(20deg);
+}
+.more-info{
+    background-color: #6de0b0
+}
+.info-list{
+    margin-top: -4rem;
+}
+.email{
+    margin-top: -2.2rem;
+    margin-left: 2rem;
+}
+.mailto{
+    margin-top: -.5rem;
 }

@@ -60,12 +60,21 @@
                                    to control them.</p>
                         </div>
                         <div>
-                                <button class="uk-button uk-button-primary contact-btn">Contact</button>
+                                <button href="#modal-center" uk-toggle class="uk-button uk-button-primary contact-btn">Contact</button>
                         </div>
                     </div>
                 </div>
             </div>
-
+            <!-- the modal -->
+            <div id="modal-center" class="uk-flex-top" uk-modal>
+                    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+                        <button class="uk-modal-close-default" type="button" uk-close></button>
+                        <h3>Contact Info:</h3>
+                        <i class="material-icons">email</i>
+                        <h4 class="email"> janice@jabsconsulting.com </h4>
+                         <h4 class="mailto">Or Click <a class="uk-button uk-button-default" href="mailto:janice@jabsconsulting.com?Subject=Consulting%20Help">Here</a></h4>
+                    </div>
+                </div>
             
             <div class="uk-card uk-card-default uk-card-body uk-width-1@m services">
                     <h1 class="uk-heading-primary services-header">Services</h1>
@@ -79,7 +88,7 @@
                 <div class="uk-container card-margin-top  ">
                         <div class="uk-child-width-1-3@m uk-grid-match" uk-grid>
                                 <div>
-                                    <div class="uk-card uk-card-default uk-card-body standard-serv-card " uk-scrollspy="cls: uk-animation-slide-left; repeat: true; delay: 200">
+                                    <div class="uk-card uk-card-default uk-card-body standard-serv-card Card " uk-scrollspy="cls: uk-animation-slide-left; repeat: true; delay: 200">
                                         <h3 class="uk-card-title">Standard Services</h3>
                                         <ul class="uk-list uk-list-divider">
                                                 <li>Accounts Payables</li>
@@ -89,18 +98,16 @@
                                                 <li>Credit Card Reconciliation</li>
                                                 <li>General Ledger Maintenance</li>
                                                 <li>Expense Reclassification</li>
-                                                <li class="show-less">Job Costing for Projects</li>
-                                                <li class="show-less">Sales Commissions</li>
-                                                <li class="show-less">Sales and Use Tax Filing</li>
-                                                <li class="show-less">Balance Sheet Review</li>
-                                                <div class="uk-align-center">
-                                                
-                                            </div>
+                                                <li>Job Costing for Projects</li>
+                                                <li>Sales Commissions</li>
+                                                <li>Sales and Use Tax Filing</li>
+                                                <li>Balance Sheet Review</li>
+                                               
                                             </ul>
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="uk-card uk-card-default uk-card-body" uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 200">
+                                    <div class="uk-card uk-card-default uk-card-body Card" uk-scrollspy="cls: uk-animation-slide-top; repeat: true; delay: 200">
                                         <h3 class="uk-card-title">Advanced Services</h3>
                                         <ul class="uk-list uk-list-divider">
                                                 <li>Financial Statements </li>
@@ -108,21 +115,34 @@
                                                 <li>Budget vs. Actuals</li>
                                                 <li>Short & Long-Term Forecasting</li>
                                                 <li>Fixed Asset Management</li>
-                                                <li>General Ledger Maintenance</li>
-                                                <li>Expense Reclassification</li>
-                                                <li class="show-less">Job Costing for Projects</li>
-                                                <li class="show-less">Sales Commissions</li>
-                                                <li class="show-less">Sales and Use Tax Filing</li>
-                                                <li class="show-less">Balance Sheet Review</li>
-                                                <div class="uk-align-center">
-                                            </div>
+                                                <li>Inventory Management </li>
+                                                <li>Work In Progress (WIP)</li>
+                                                <li>Job Costing Analysis</li>
+                                                <li>Payroll Management </li>
+                                                <li>Working with your CPA</li>
+                                                <li>Audit Support</li>
                                             </ul>
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="uk-card uk-card-default uk-card-body" uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 200">
+                                    <div class="uk-card uk-card-default uk-card-body Card" uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay: 200">
                                         <h3 class="uk-card-title">Benefits of Outsourcing</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <ul class="uk-list uk-list-divider">
+                                               <li>Work with a Set Budget </li>
+                                               <li>Fills the Gaps with Accounting Knowledge</li>
+                                               <li>Experiencing Exponential Growth</li>
+                                               <li>Staff Retiring or High Turnover Rate</li>
+                                               <li>Start-up Companies </li>
+                                               <h5>No Overhead Cost:</h5>
+                                               <li>Payroll Tax</li>
+                                               <li>Medical/Dental Benefits</li>
+                                               <li>Vacation/Sick Days</li>
+                                               <li>Retirement Contributions </li>
+                                                
+                                                
+                                                <div class="uk-align-center">
+                                            </div>
+                                            </ul>
                                     </div>
                                 </div>
                                 </div>
@@ -188,7 +208,13 @@
 
                 </div>
 
-
+                <div class="uk-card uk-card-default uk-card-body uk-width-1@m more-info">
+                        <h1 class="uk-heading-primary services-header">Why Pick J.A.B.S?</h1>
+                        <ul class="uk-list info-list">
+                                <li>The burdensome cost of paying a full-time Chief Financial Officer along with an accounting staff is a significant barrier especially for start-up organizations.</li>
+                                <li>J.A. Business Strategies is a roll-up your sleeves accounting consulting firm specializing in business strategies and full-cycle accounting services.</li>
+                            </ul>
+                    </div>
 
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
